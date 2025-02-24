@@ -25,7 +25,7 @@ export default function Plans() {
                     ))}
                 </div>
                 <div className=''>
-                    <span>see more benefits -> </span>
+                    <span>see more benefits</span>
                 </div>
                 <button type='button' className='btn'>join now </button>
             </div>
