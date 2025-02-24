@@ -1,16 +1,16 @@
 {
-  "homepage": "http://bency-fathima.github.io/fit-me-gym",
+  "homepage": "https://bency-fathima.github.io/fit-me-gym",
   "name": "fitme-club",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

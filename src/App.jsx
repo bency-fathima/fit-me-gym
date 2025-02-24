@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <Hero/>
       <Routes>
         <Route path='/' element={<Hero/>}/>
         <Route path='/program' element={<Programs/>}/>
